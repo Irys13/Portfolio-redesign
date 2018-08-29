@@ -1,0 +1,55 @@
+body {
+
+}
+
+.container-fluid {
+	padding: 10px;
+}
+#frame {
+	background: rgb(249, 165, 155);
+	height: auto;
+	display: block;
+	padding: 10px;
+}
+
+#article  {
+	background-color: rgb(254, 243, 177);
+	margin: 10px -10px 25px 0px;
+	padding: 3px;
+}
+
+#menu {
+	background-color: rgb(254, 243, 177);
+	margin: 10px 0px 25px -10px;
+	padding: 3px;
+}
+
+#title {
+	height: 25px;
+	width: 100%;
+	background: rgb(123, 65, 106);
+	padding: 1% 1% 0% 1%;
+	color: rgb(254, 243, 177);
+	grid-template-columns: 50% 50%;
+	display: grid;
+	font-weight:bold;
+}
+
+#right {
+	display: grid;
+	justify-items: end;
+}
+
+.title-menu {
+	height: 25px;
+	width: 100%;
+	background: rgb(123, 65, 106);
+	padding: 2% 2% 0% 2%;
+	color: rgb(254, 243, 177);
+	font-weight: bold;
+}
+
+#profile-picture {
+	margin: 3px 0 3px 0;
+}
+
