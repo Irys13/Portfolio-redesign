@@ -109,3 +109,33 @@ ul{
 	font-style: italic;
 	text-align: right;
 }
+
+
+@media screen and (max-width: 767px) {
+	.grid-1 {
+		display: none;
+	}
+	.grid-2 {
+		overflow: hidden;
+		position: fixed;
+		bottom: 0;
+		width: 100px;
+		background-color: rgb(254, 243, 177);
+	}
+	.grid-2 a {
+		float: left;
+		display: inline-block !important;
+		text-decoration: none;
+	}
+	#article  {
+	margin: 10px 0px -10px 0px;
+	padding: 3px;
+}
+	#frame {
+		margin: 0px 0px -10px 0px;
+	}
+	
+#footer {
+height: 100px;
+}	
+}
